@@ -2,11 +2,11 @@
 using System.Collections;
 
 public class NetManager : MonoBehaviour {
-    private const string roomName = "RoomName";
-    private TypedLobby lobbyName = new TypedLobby("New_Lobby", LobbyType.Default);
+    private const string roomName = "SuperUniqueRoomName";
+    private TypedLobby lobbyName = new TypedLobby("SuperUniqueNew_Lobby", LobbyType.Default);
     private RoomInfo[] roomsList;
     public GameObject player;
-    public GameObject ball;
+    //public GameObject ball;
 	// Use this for initialization
 	void Start () {
         PhotonNetwork.ConnectUsingSettings("v4.2");
@@ -14,6 +14,7 @@ public class NetManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 	
 	}
     void OnGUI()
@@ -26,13 +27,13 @@ public class NetManager : MonoBehaviour {
         {
             if(GUI.Button(new Rect(100,100,250,100),"Start Server"))
             {
-                PhotonNetwork.CreateRoom(roomName, new RoomOptions() { maxPlayers = 4, isOpen = true, isVisible = true }, lobbyName);        
+                PhotonNetwork.CreateRoom(roomName, new  RoomOptions() { maxPlayers = 4, isOpen = true, isVisible = true }, lobbyName);        
             }
             if(roomsList != null)
             {
                 for(int i = 0; i < roomsList.Length; i++)
                 {
-                    if(GUI.Button(new Rect(100,250 + (110 * i),250,100),"Join " + roomsList[i].name))
+					if(GUI.Button(new Rect(100,100,250,100),"Join " + roomsList[i].name))
                     {
                         PhotonNetwork.JoinRoom(roomsList[i].name);
                     }
@@ -64,7 +65,7 @@ public class NetManager : MonoBehaviour {
         if (PhotonNetwork.playerList.Length > 1)
         {
             PhotonNetwork.Instantiate(player.name, new Vector3(-4f, 1.5f, -2f), Quaternion.identity, 0);
-            PhotonNetwork.Instantiate(ball.name, new Vector3(-4f, 1.5f, -2f), Quaternion.identity, 0);
+           // PhotonNetwork.Instantiate(ball.name, new Vector3(-4f, 1.5f, -2f), Quaternion.identity, 0);
 
         }
         else

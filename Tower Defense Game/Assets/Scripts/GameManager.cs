@@ -11,5 +11,6 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Destroy(GameObject.Find("Soldier(Clone)(Clone)"));
+		Destroy (GameObject.Find ("Soldier2(Clone)(Clone)"));
 	}
 }

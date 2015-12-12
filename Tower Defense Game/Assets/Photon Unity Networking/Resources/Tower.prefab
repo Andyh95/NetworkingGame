@@ -428,6 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soldierPrefab: {fileID: 198814, guid: 27a7e7fc7f610d148884c1bb25547318, type: 2}
+  soldierPrefab2: {fileID: 193468, guid: f11254c29df59be4e9f6f112075af899, type: 2}
   spawnpoint: {fileID: 407882}
 --- !u!114 &11478972
 MonoBehaviour:
@@ -524,6 +525,10 @@ Prefab:
       propertyPath: soldierPrefab
       value: 
       objectReference: {fileID: 198814, guid: 27a7e7fc7f610d148884c1bb25547318, type: 2}
+    - target: {fileID: 0}
+      propertyPath: soldierPrefab2
+      value: 
+      objectReference: {fileID: 193468, guid: f11254c29df59be4e9f6f112075af899, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 163200}

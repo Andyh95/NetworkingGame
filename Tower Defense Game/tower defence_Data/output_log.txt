@@ -1,36 +1,68 @@
-Initialize engine version: 5.1.2f1 (afd2369b692a)
+Initialize engine version: 5.2.1f1 (44735ea161b3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro K600 (ID=0xffa)
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x1185)
     Vendor:   NVIDIA
-    VRAM:     972 MB
+    VRAM:     1475 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll (this message is harmless)
-Loading H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-- Completed reload, in  1.878 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.340 seconds
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: H:\Data\Networking Game\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x1185)
+    Vendor:   NVIDIA
+    VRAM:     1475 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.111 seconds
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1c84 -> priority: 1 
-  Thread -> id: 1518 -> priority: 1 
-Joined Lobby
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
-
+  Thread -> id: 2330 -> priority: 1 
+  Thread -> id: 16d4 -> priority: 1 
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1860 -> priority: 1 
+  Thread -> id: 2738 -> priority: 1 

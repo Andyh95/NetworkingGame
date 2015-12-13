@@ -24,4 +24,11 @@ public class Bullet : MonoBehaviour {
 			Destroy(this.gameObject);
 		}
 	}
+
+	void OnTriggerEnter(Collider coll)
+	{
+		if (coll.name == "Soldier(Clone)" || coll.name == "Soldier2(Clone)") {
+			Destroy(coll.gameObject);
+		}
+	}
 }

@@ -8,13 +8,19 @@ public class Player : NetworkBehaviour {
 	GameManager manager;
 	public GameObject soldierPrefab;
 	public GameObject soldierPrefab2;
+	public GameObject bulletPrefab;
 	GameObject soldier;
 	GameObject soldier2;
 	public Transform spawnpoint;
+	public Transform shootPoint;
 	 float spawnCooldown;
 	int health = 10;
 	Vector3 startPos;
-	int player;
+
+	public int player;
+
+	public float money = 500;
+	GameObject bullet;
 
 	// Use this for initialization
 	void Start () {
@@ -25,11 +31,15 @@ public class Player : NetworkBehaviour {
 	// Update is called once per frame
 	[ClientCallback]
 	void Update () {
+		money += 4 * Time.deltaTime;
+		//Debug.Log ("money: " + money);
 		startPos = transform.position;
 		if (startPos.x > 0) {
 			player = 1;
+
 		} else {
 			player = 2;
+
 		}
 		if (created) {
 			created = false;
@@ -49,8 +59,9 @@ public class Player : NetworkBehaviour {
 			return;
 		}
 
-		if (Input.GetKeyDown (KeyCode.Space) && spawnCooldown <= 0) {
+		if (Input.GetKeyDown (KeyCode.Space) && spawnCooldown <= 0 && money >= 50) {
 			CmdSpawnSoldier ();
+			money -= 50;
 		} else {
 			spawnCooldown--;
 		}
@@ -59,6 +70,13 @@ public class Player : NetworkBehaviour {
 			Destroy(this.gameObject);
 		}
 
+		if (player == 1) {
+			if((GameObject.Find("Soldier2").GetComponent<Soldier>().transform.position - transform.position).magnitude < 5)
+			{
+				Debug.Log("Close");
+			}
+
+		}
 
 	}
 	[Command]
@@ -67,15 +85,17 @@ public class Player : NetworkBehaviour {
 		if (player == 1) {
 			soldier = (GameObject)Instantiate (soldierPrefab, spawnpoint.position, Quaternion.identity);
 			NetworkServer.Spawn (soldier);
-			spawnCooldown += 200f;
-		} else {
+			spawnCooldown += 100f;
+
+		} else{
 			soldier2 = (GameObject)Instantiate (soldierPrefab2, spawnpoint.position, Quaternion.identity);
 			NetworkServer.Spawn (soldier2);
-			spawnCooldown += 200f;
+			spawnCooldown += 100f;
+
 		}
 	}
 
-	void OnTriggerEnter(Collider coll)
+	/*void OnTriggerEnter(Collider coll)
 	{
 		if (player == 1) {
 			if(coll.name == "Soldier2(Clone)")
@@ -90,6 +110,17 @@ public class Player : NetworkBehaviour {
 				health--;
 				Destroy(coll.gameObject);
 			}
+		}
+
+	}
+*/
+
+	void OnTriggerEnter(Collider coll)
+	{
+		if (player == 1 && coll.name == "Soldier2(Clone)") {
+			bullet = (GameObject)Instantiate (bulletPrefab, shootPoint.position, Quaternion.identity);
+			NetworkServer.Spawn (bullet);
+			bullet.GetComponent<Bullet>().target = coll.transform;
 		}
 
 	}

@@ -18,90 +18,16 @@ Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed
 Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll (this message is harmless)
 Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.356 seconds
+- Completed reload, in  0.337 seconds
 desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Initialize engine version: 5.2.1f1 (44735ea161b3)
-GfxDevice: creating device client; threaded=1
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 660 (ID=0x1185)
-    Vendor:   NVIDIA
-    VRAM:     1475 MB
-Begin MonoManager ReloadAssembly
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.118 seconds
-desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
-<RI> Initializing input.
-<RI> Input initialized.
 Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1698 -> priority: 1 
-  Thread -> id: 2764 -> priority: 1 
-<RI> Initialized touch support.
-Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 28d0 -> priority: 1 
-  Thread -> id: 2aac -> priority: 1 
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone)(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone)(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
+  Thread -> id: 2c2c -> priority: 1 
+  Thread -> id: 2a88 -> priority: 1 
 Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
@@ -110,524 +36,183 @@ Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Collision with : Tower(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Collision with : Tower(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+Collision with : Tower(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+SpawnObject for TempBullet(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
  
-(Filename: C:/buildslave/unity/build/artifacts/generCted/liomion wruniiteh : Syldier2(Cebue)BindityEngine.Box Lioe:llide
-r
-)
- 
-(FilCname: C:/buildslave/unity/buold/artUnityEngiee.eBoxCollider)
- un
-time/Uamei CyEngineDebugBindings.gen.cpp Line:/ge4e)
-ed/common/Cuntiiseion wiEthi: eSeougBindingone) (Unit Line: 64)
-
-ollideC)
- 
-(Fion wite: C:/budiel2dCslave/unityyEn/ibe.BoxCollidects/
-ge
-nFelename: C:/buildslave/unityEngineDebugBindts/iengsrageed.ccpmpo /Luntime/U)
-i
-tyEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (Uonlityinginon owitlh :ero
- 
-diFelrn(melo C:/)u (UnityEngnity/buiold/artif
-ac
-ts/generated:/common/runtiunity/builngineDebugBi/generatged/cppmm Lirun: m6/Un)
-t
-EngineDCbugBisnoningwish gen Soldi Liner 6(Cl
-
-one) (ollnitysngineon BoxCithl : So
- 
-lFdleiamr(C Con/e) (UnityEnginte/.BoxColliifer)
- s/
-gFinerated/com/buildsltime/UnityEngineDebufacts/iengs.gen.cppm Line: 64)
-U
-nityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBinCings.gen.cpp hin :  64ld
-i
-er2(CCollision withgine.BoxCorllidene) 
- niFilEngine.B:/buolldslave
-/u
-(Fitle/bame:dC:/aurldslavf/ancty/tsild/artatfaeds/cenmmratn/rucotimmneruUnityEngnneDebugBindings.gndn.ngpp.gLin.: 6p Li
-n
-e: 64)
-
-llision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : SoldierC(Clllisoon e) ( UnSoyEdiinr2(CloCne) (Unit
- y
-Engine.Be: C:/buei)l
- 
-(lavee/unity/:/ildildrlavi/fnaty/buti/len/ertifacts/mgeneuatedmecommot/yuntime/UnityEnndinegseb.gBindinp sLine: 64)Li
-n
-e: 64)C
-
-ollCollisionh i:  Sololdir(Clonene) (niniyEEngineneoxBoolClllder)r
- 
-)Fi
- naFie: C:/buil:dbuiavdslaity/uunld/irtiyacts/guneratldd/co/mon/ruttime/UtsngiteyaEedgi/eDebmognindintsime/UnityEngineDebu
-g
-Bindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Did not find target for sync message for 8
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Did not find target for sync message for 8
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Plane (UnityEngine.MeshCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
- 
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Collision with : TempBullet(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Plane (UnityEngine.MeshCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Soldier2(Clone) (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
@@ -635,79 +220,271 @@ Collision with : Cube (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+SpawnObject for TempBullet(Clone) (UnityEngine.GameObject), NetworkServer is not active. Cannot spawn objects without an active server.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCCllilder)
- 
-(Filename: C:/bityEngine.BoxCyoluiide/arti)
- 
-(F/ilneranedm/:common/rdslave/unityEnbuild/arugifaictndiengerated/ppcLimeo:/ 6n)
-
-me/UnityEngineDebugBindings.gen.cpp Line: 64)
-
-Did not find target for sync message for 12
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Collision with : TempBullet(Clone) (UnityEngine.BoxCollider)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 4
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 
-Collision with : Cube (UnityEngine.BoxCollider)
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Did not find target for sync message for 5
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
 

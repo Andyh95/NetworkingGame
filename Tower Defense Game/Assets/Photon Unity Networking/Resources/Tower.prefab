@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 407882}
   m_Layer: 0
-  m_Name: spawnpoint
+  m_Name: shootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,6 +46,21 @@ GameObject:
   - 23: {fileID: 2374748}
   m_Layer: 0
   m_Name: Cube (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &149540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422502}
+  m_Layer: 0
+  m_Name: spawnpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,6 +143,18 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132096}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.44000006, y: .395999998, z: 0}
+  m_LocalScale: {x: 1, y: .126342401, z: 1}
+  m_Children: []
+  m_Father: {fileID: 475342}
+  m_RootOrder: 5
+--- !u!4 &422502
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.46999979, y: -.43900001, z: 0}
   m_LocalScale: {x: 1, y: .126342401, z: 1}
   m_Children: []
@@ -152,13 +179,14 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 163200}
   m_LocalRotation: {x: 0, y: .99999994, z: 0, w: -.000338480866}
-  m_LocalPosition: {x: 17.9645519, y: 4.07999992, z: .770199001}
+  m_LocalPosition: {x: 20.0954742, y: 4.07999992, z: .526406586}
   m_LocalScale: {x: 1, y: 8, z: 1}
   m_Children:
   - {fileID: 487606}
   - {fileID: 480568}
   - {fileID: 407648}
   - {fileID: 434424}
+  - {fileID: 422502}
   - {fileID: 407882}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -402,8 +430,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 11.8743315, y: 1, z: 1}
+  m_Center: {x: 5.43726826, y: 0, z: 1.78534538e-06}
 --- !u!65 &6592672
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -429,7 +457,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soldierPrefab: {fileID: 198814, guid: 27a7e7fc7f610d148884c1bb25547318, type: 2}
   soldierPrefab2: {fileID: 193468, guid: f11254c29df59be4e9f6f112075af899, type: 2}
-  spawnpoint: {fileID: 407882}
+  bulletPrefab: {fileID: 142016, guid: e75993a3a0f8d114bb35d3ed8e93ed1d, type: 2}
+  spawnpoint: {fileID: 422502}
+  shootPoint: {fileID: 407882}
+  player: 0
+  money: 500
 --- !u!114 &11478972
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -529,6 +561,10 @@ Prefab:
       propertyPath: soldierPrefab2
       value: 
       objectReference: {fileID: 193468, guid: f11254c29df59be4e9f6f112075af899, type: 2}
+    - target: {fileID: 0}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 142016, guid: e75993a3a0f8d114bb35d3ed8e93ed1d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 163200}

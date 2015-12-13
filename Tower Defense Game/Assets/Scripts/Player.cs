@@ -70,13 +70,8 @@ public class Player : NetworkBehaviour {
 			Destroy(this.gameObject);
 		}
 
-		if (player == 1) {
-			if((GameObject.Find("Soldier2").GetComponent<Soldier>().transform.position - transform.position).magnitude < 5)
-			{
-				Debug.Log("Close");
-			}
 
-		}
+
 
 	}
 	[Command]
@@ -120,8 +115,13 @@ public class Player : NetworkBehaviour {
 		if (player == 1 && coll.name == "Soldier2(Clone)") {
 			bullet = (GameObject)Instantiate (bulletPrefab, shootPoint.position, Quaternion.identity);
 			NetworkServer.Spawn (bullet);
-			bullet.GetComponent<Bullet>().target = coll.transform;
+			bullet.GetComponent<Bullet> ().target = coll.transform;
+		} else if (player == 2 && coll.name == "Soldier(Clone)") {
+			bullet = (GameObject)Instantiate (bulletPrefab, shootPoint.position, Quaternion.identity);
+			NetworkServer.Spawn (bullet);
+			bullet.GetComponent<Bullet> ().target = coll.transform;
 		}
 
 	}
+
 }

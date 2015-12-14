@@ -62,6 +62,17 @@ public class NetManager : MonoBehaviour {
     {
         Debug.Log("Connected to Room");
         print(PhotonNetwork.playerList.Length);
+
+        if (GUI.Button(new Rect(200, 200, 250, 100), "Player 1"))
+        {
+            PhotonNetwork.Instantiate(player.name, new Vector3(-4f, 1.5f, -2f), Quaternion.identity, 0);
+ 
+        }
+        else if (GUI.Button(new Rect(400,400,250,100), "Player 2"))
+        {
+            PhotonNetwork.Instantiate(player.name, new Vector3(4f, 1.5f, -2f), Quaternion.identity, 0);
+        }
+        /*
         if (PhotonNetwork.playerList.Length > 1)
         {
             PhotonNetwork.Instantiate(player.name, new Vector3(-4f, 1.5f, -2f), Quaternion.identity, 0);
@@ -72,5 +83,6 @@ public class NetManager : MonoBehaviour {
         {
             PhotonNetwork.Instantiate(player.name, new Vector3(4f, 1.5f, -2f), Quaternion.identity, 0);
         }
+        */
     }
 }

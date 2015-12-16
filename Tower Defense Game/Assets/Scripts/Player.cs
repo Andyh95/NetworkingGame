@@ -8,9 +8,13 @@ public class Player : NetworkBehaviour {
 	GameManager manager;
 	public GameObject soldierPrefab;
 	public GameObject soldierPrefab2;
+	public GameObject artilleryPrefab;
+	public GameObject artilleryPrefab2;
 	public GameObject bulletPrefab;
 	GameObject soldier;
 	GameObject soldier2;
+	GameObject artillery;
+	GameObject artillery2;
 	public Transform spawnpoint;
 	public Transform shootPoint;
 	float spawnCooldown;
@@ -77,6 +81,12 @@ public class Player : NetworkBehaviour {
 		} else {
 			spawnCooldown--;
 		}
+		if (Input.GetKeyDown (KeyCode.A) && spawnCooldown <= 0 && money >= 75) {
+			CmdSpawnArtillery ();
+			money -= 75;
+		} else {
+			spawnCooldown--;
+		}
 
 		if (health == 0) {
 			Destroy(this.gameObject);
@@ -98,6 +108,20 @@ public class Player : NetworkBehaviour {
 			NetworkServer.Spawn (soldier2);
 			spawnCooldown = 100f;
 
+		}
+	}
+	[Command]
+	public void CmdSpawnArtillery()
+	{
+		if (player == 1) {
+			artillery = (GameObject)Instantiate (artilleryPrefab, spawnpoint.position, Quaternion.identity);
+			NetworkServer.Spawn (artillery);
+			spawnCooldown = 100f;
+			
+		} else {
+			artillery2 = (GameObject)Instantiate (artilleryPrefab2, spawnpoint.position, Quaternion.identity);
+			NetworkServer.Spawn (artillery2);
+			spawnCooldown = 100f;
 		}
 	}
 

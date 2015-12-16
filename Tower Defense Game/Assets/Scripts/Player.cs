@@ -13,7 +13,7 @@ public class Player : NetworkBehaviour {
 	GameObject soldier2;
 	public Transform spawnpoint;
 	public Transform shootPoint;
-	float spawnCooldown;
+	float spawnCooldown, spawnCooldown2;
 	int health = 10;
 	Vector3 startPos;
 
@@ -37,8 +37,10 @@ public class Player : NetworkBehaviour {
 		money += 4 * Time.deltaTime;
 		fireCooldown1--;
 		fireCooldown2--;
-		//Debug.Log ("money: " + money);
-		startPos = transform.position;
+        spawnCooldown--;
+        spawnCooldown2--;
+        //Debug.Log ("money: " + money);
+        startPos = transform.position;
 		if (startPos.x > 0) {
 			player = 1;
 
@@ -71,12 +73,12 @@ public class Player : NetworkBehaviour {
 			return;
 		}
 
-		if (Input.GetKeyDown (KeyCode.Space) && spawnCooldown <= 0 && money >= 50) {
+		if (Input.GetKeyDown (KeyCode.Space)  && money >= 50) {
 			CmdSpawnSoldier ();
 			money -= 50;
-		} else {
-			spawnCooldown--;
 		}
+
+		
 
 		if (health == 0) {
 			Destroy(this.gameObject);
@@ -88,15 +90,15 @@ public class Player : NetworkBehaviour {
 	[Command]
 	public void CmdSpawnSoldier()
 	{
-		if (player == 1) {
+		if (player == 1 && spawnCooldown <= 0) {
 			soldier = (GameObject)Instantiate (soldierPrefab, spawnpoint.position, Quaternion.identity);
 			NetworkServer.Spawn (soldier);
 			spawnCooldown = 100f;
 
-		} else{
+		} else if (spawnCooldown2 <=0) {
 			soldier2 = (GameObject)Instantiate (soldierPrefab2, spawnpoint.position, Quaternion.identity);
 			NetworkServer.Spawn (soldier2);
-			spawnCooldown = 100f;
+			spawnCooldown2 = 100f;
 
 		}
 	}

@@ -6,6 +6,7 @@ Direct3D:
     Vendor:   ATI
     VRAM:     2027 MB
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 Platform assembly: C:\Users\William\Documents\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\William\Documents\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\William\Documents\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
@@ -56,6 +57,30 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 Platform assembly: C:\Users\William\Documents\NetworkingGame\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
   Thread -> id: 2324 -> priority: 1 
+=======
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.353 seconds
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\TowerDefence\Tower Defense Game\tower defence_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3974 -> priority: 1 
+  Thread -> id: 1580 -> priority: 1 
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
@@ -156,6 +181,7 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
@@ -268,6 +294,9 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier2(Clone)(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -296,6 +325,7 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
@@ -318,6 +348,9 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Tower(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -326,6 +359,7 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
@@ -358,11 +392,18 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone)(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -376,6 +417,7 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
@@ -443,11 +485,18 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone)(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -461,8 +510,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -471,8 +524,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -481,8 +538,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -491,13 +552,21 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -511,8 +580,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -521,8 +594,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -531,8 +608,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -541,6 +622,7 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
@@ -548,6 +630,9 @@ NullReferenceException: Object reference not set to an instance of an object
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -556,8 +641,12 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
+=======
+Collision with : Soldier(Clone) (UnityEngine.BoxCollider)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
  
 (Filename:  Line: -1)
 
@@ -611,15 +700,23 @@ NullReferenceException: Object reference not set to an instance of an object
  
 (Filename:  Line: -1)
 
+<<<<<<< HEAD
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
+=======
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+aissp: time {56312} lastRecTime {54273} DisTme {2000}, rtt {0} 
+ 
+(Filename:  Line: 1848)
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
+<<<<<<< HEAD
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
@@ -82100,6 +82197,8 @@ NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
+=======
+>>>>>>> 52a1614b43a029d8a5626766e36d64c30413acc8
 
 NullReferenceException: Object reference not set to an instance of an object
   at Player.Update () [0x00000] in <filename unknown>:0 

@@ -44,6 +44,7 @@ GameObject:
   - 33: {fileID: 3375698}
   - 65: {fileID: 6503632}
   - 23: {fileID: 2374748}
+  - 114: {fileID: 11497716}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -77,6 +78,7 @@ GameObject:
   - 33: {fileID: 3342498}
   - 65: {fileID: 6592672}
   - 23: {fileID: 2376644}
+  - 114: {fileID: 11461224}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -117,6 +119,7 @@ GameObject:
   - 33: {fileID: 3396080}
   - 65: {fileID: 6514900}
   - 23: {fileID: 2373720}
+  - 114: {fileID: 11454696}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -380,7 +383,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -444,6 +447,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11454696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e26937056e9e4fa15ea41a2e63497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpin: 0
+  ySpin: 100
+  zSpin: 0
+--- !u!114 &11461224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e26937056e9e4fa15ea41a2e63497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpin: 0
+  ySpin: 20
+  zSpin: 0
 --- !u!114 &11473334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -457,9 +488,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soldierPrefab: {fileID: 198814, guid: 27a7e7fc7f610d148884c1bb25547318, type: 2}
   soldierPrefab2: {fileID: 193468, guid: f11254c29df59be4e9f6f112075af899, type: 2}
+  artilleryPrefab: {fileID: 159118, guid: d4254883739d6e345af6d8d235463d6a, type: 2}
+  artilleryPrefab2: {fileID: 126822, guid: 2e4dd7475996f8b4aa2284d05a0b9d42, type: 2}
   bulletPrefab: {fileID: 142016, guid: e75993a3a0f8d114bb35d3ed8e93ed1d, type: 2}
   spawnpoint: {fileID: 422502}
   shootPoint: {fileID: 407882}
+  fireCooldown1: 0
+  fireCooldown2: 0
   player: 0
   money: 500
 --- !u!114 &11478972
@@ -514,6 +549,20 @@ MonoBehaviour:
   m_SnapThreshold: 50
   m_InterpolateRotation: 4
   m_InterpolateMovement: 1
+--- !u!114 &11497716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e26937056e9e4fa15ea41a2e63497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpin: 0
+  ySpin: -50
+  zSpin: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -565,6 +614,30 @@ Prefab:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 142016, guid: e75993a3a0f8d114bb35d3ed8e93ed1d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: xSpin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ySpin
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: zSpin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: artilleryPrefab
+      value: 
+      objectReference: {fileID: 159118, guid: d4254883739d6e345af6d8d235463d6a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: artilleryPrefab2
+      value: 
+      objectReference: {fileID: 126822, guid: 2e4dd7475996f8b4aa2284d05a0b9d42, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 163200}

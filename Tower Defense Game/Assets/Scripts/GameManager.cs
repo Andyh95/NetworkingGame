@@ -12,5 +12,7 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		Destroy(GameObject.Find("Soldier(Clone)(Clone)"));
 		Destroy (GameObject.Find ("Soldier2(Clone)(Clone)"));
+		Destroy (GameObject.Find ("Artillery(Clone)(Clone)"));
+		Destroy (GameObject.Find ("Artillery2(Clone)(Clone)"));
 	}
 }

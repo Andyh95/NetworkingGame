@@ -79,12 +79,15 @@ public class Player : NetworkBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space)  && money >= 50) {
 			CmdSpawnSoldier ();
 			money -= 50;
+<<<<<<< HEAD
 		}
 		if (Input.GetKeyDown (KeyCode.A) && spawnCooldown <= 0 && money >= 75) {
 			CmdSpawnArtillery ();
 			money -= 75;
 		} else {
 			spawnCooldown--;
+=======
+>>>>>>> b0efbccda80e2f0ed33d0eedf5874fde2d9d4601
 		}
 
 		
@@ -104,8 +107,12 @@ public class Player : NetworkBehaviour {
 			NetworkServer.Spawn (soldier);
 			spawnCooldown = 100f;
 
+<<<<<<< HEAD
 		}
         if (player == 2 && spawnCooldown2 <=0) {
+=======
+		} else if (spawnCooldown2 <=0) {
+>>>>>>> b0efbccda80e2f0ed33d0eedf5874fde2d9d4601
 			soldier2 = (GameObject)Instantiate (soldierPrefab2, spawnpoint.position, Quaternion.identity);
 			NetworkServer.Spawn (soldier2);
 			spawnCooldown2 = 100f;

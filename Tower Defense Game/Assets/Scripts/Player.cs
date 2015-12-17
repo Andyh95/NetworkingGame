@@ -64,7 +64,7 @@ public class Player : NetworkBehaviour {
 		if (player == 1 && GameObject.Find ("Soldier2(Clone)").GetComponent<Soldier> ().transform.position.x > 19) {
 			Destroy(this.gameObject);
 		}
-		if (player == 2 && GameObject.Find ("Soldier(Clone)").GetComponent<Soldier> ().transform.position.x < -14) {
+		if (player == 1 && GameObject.Find ("Soldier2(Clone)").GetComponent<Soldier> ().transform.position.x < -14) {
 			Destroy(this.gameObject);
 		}
 
